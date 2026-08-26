@@ -1,0 +1,150 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 1.625rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a.botao {
+  background-color: #96BB7C;
+  color: #fff2f3;
+  padding: 4px 16px;
+  border-radius: 4px;
+}
+
+a.botao:hover {
+  background-color: palevioletred;
+}
+
+a.botao2{
+  border: 2px solid #96BB7C;
+  color: #96BB7C;
+  padding: 4px 16px;
+  border-radius: 4px;
+}
+
+a.botao2:hover{
+  background-color:palevioletred ;
+  color: white;
+}
+
+header {
+  background-color: #fff2f3;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+header ul {
+  display: flex;
+  gap: 10px;
+  font-size: 0.8rem;
+}
+
+header h1 {
+  font-weight: bolder;
+}
+
+/*=== banner ===*/
+section.banner {
+  background-color: #fff2f3;
+  padding: 3vw 10vw 0 10vw;
+  display: flex; 
+  gap: 8vw;
+}
+
+section.banner h2{
+  font-weight: bolder;
+  font-size: 2.3rem;
+  padding:2vw 2vw 2vw 0;
+}
+
+section.banner h3{
+  color: #96BB7C;
+  font-size: 1rem;
+
+}
+
+section.banner p{
+  padding: 0 0 3vw 0;
+  color: gray;
+}
+
+/*=== team ===*/
+
+section.team{
+  padding: 3vw 10vw 0 10vw;
+}
+
+section.team h3{
+  color: #96BB7C;
+  
+}
+
+section.team h2{
+  font-weight: bolder;
+  font-size: 1.3rem;
+  padding: 2vw 4vw 1vw 0;
+}
+
+section.team > p{
+  color: gray;
+  padding: 2vw 4vw 4vw 0;
+}
+
+section.team ul{
+  display: flex;
+  gap: 4vw;
+  justify-content: center;
+}
+
+section.team ul li{
+  background-color: #eaebcf;
+  text-align: center;
+  font-size: 0.8rem;
+}
+section.team ul li p{
+  color: gray;
+  padding: 1vw 1vw 1vw 1vw;
+}
+
+section.team ul li h4{
+  padding: 1vw 1vw 1vw 1vw;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+section.final{
+  background-color: #fff2f3;
+  text-align: center;
+}
+
+section.final h3{
+  color: #96BB7C;
+  padding:4vw 0 4vw 0;
+  font-size: 0.6;
+}
+
+section.final h2{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 0 0 3vw 0;
+}
+section.final p{
+  color: gray;
+  font-size: 0.6rem;
+  padding: 0 27vw 5vw 27vw;
+}
+ footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 10vw 3vw 10vw;
+ }
+ footer nav ul{
+   display: flex;
+   gap: 20px;
+   width: 120;
+ }
+
+ footer p{
+  font-size: 0.7rem;
+  color: gray;
+ }
