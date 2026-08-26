@@ -1,0 +1,181 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 1vw + 0.8rem, 3rem);
+    font-family: "Epilogue", sans-serif;
+}
+h1{
+    font-family: "Nunito", sans-serif;
+}
+h2,h3,h4,h5,h6{
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+header{
+    text-align: center;
+    font-size: 1vw;
+}
+
+header nav ul li{
+    padding: 5px 0 5px 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+header nav ul li.contact a{
+    background-color: rgb(234, 175, 87);
+    color: white;
+    border-radius: 20px;
+    padding: 3px 6px 3px 6px;
+}
+
+
+
+
+
+section.banner{
+    text-align: center;
+    padding: 3vw 0 3vw 0;
+    background-color: bisque;
+}
+
+section.banner h1{
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+section.banner p{
+    font-size: 3vw;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+section.banner p button{
+    border-radius:10px;
+   background-color: rgb(210, 8, 102);
+   color: white;
+   font-size: 3.5vw;
+   padding: 5px 10px 5px 10px;
+}
+
+
+
+
+section.food {
+    text-align: center;
+    background-color: rgb(213, 224, 240);
+    padding: 3vw 0 3vw 0;
+
+}
+
+section.food p{
+    color: green;
+    font-size: 3vw;
+    font-weight: bold;
+}
+section.food h2{
+    font-size: 5vw;
+    font-weight: bolder;
+}
+
+section.food div ul li p {
+    color: yellow;
+}
+
+section.food div ul li h3 span{
+    font-size: 5vw;
+    font-weight: bolder;
+    border-bottom: 2px solid yellow;
+}
+
+section.food div ul li{
+    background-color: white;
+    margin: 30px ;
+}
+
+
+
+
+
+
+section.follow {
+    text-align: center;
+     padding: 3vw 0 3vw 0;
+}
+
+section.follow> img{
+    width: 40px;
+}
+section.follow h2{
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+section.follow p{
+    color: gray;
+    font-size: 2vw;
+    padding: 10px 10px 10px 10px;
+}
+
+section.follow div ul li{
+    padding: 2vw 4vw 2vw 4vw;
+}
+
+footer{
+    background-color: rgb(213, 224, 240);
+     padding: 3vw 0 3vw 0;
+}
+footer p{
+    font-size: 2vw;
+    font-weight: bolder;
+    padding: 2vw 6vw 2vw 6vw;
+}
+footer p span{
+    color: rgb(210, 8, 102);
+
+}
+
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header nav ul {
+    display: flex;
+    padding: 1vw 1vw 1vw 1vw;
+     gap: 20px;
+   
+}
+
+header nav ul li{
+  font-size: 0.5rem;
+    padding: 2vw 4vw 2vw 0;
+}
+
+header img{
+    padding: 2vw 4vw 2vw 4vw;
+}
+}
