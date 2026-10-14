@@ -1,0 +1,195 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+font-family: "Urbanist", sans-serif; 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem); 
+}
+
+header{
+    background-color: #FEF8F5;
+    text-align: center;
+}
+header ul li{
+    font-size: 0.8rem;
+    padding: 10px;
+}
+header ul li.botao a{
+    background-color: #ED672B;
+    color: white;
+    border-radius: 20px ;
+    padding: 9px 15px;
+}
+header ul li.botao a:hover{
+    background-color: #e78b61;
+}
+header ul li:hover{
+    color: #ED672B;
+}
+
+
+
+.banner{
+    background-color: #FEF8F5;
+}
+.banner h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 4vw 0 ;
+    color: #ED672B;
+}
+.topicos p{
+    color:rgb(88, 83, 83) ;
+    padding: 10px 10px 0 0;
+    font-size: 0.7rem;
+}
+.topicos ul li{
+    padding: 20px;
+}
+.topicos h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.aspas {
+    background-color:#FFFFFF ;
+    text-align: center;
+    padding: 4vw;
+}
+.aspas h2{
+     font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+.aspas img{
+    padding: 20px;
+    
+}
+.aspas p{
+    color:rgb(88, 83, 83) ;
+    font-size: 0.7rem;
+}
+.desconto{
+    background-color: #ED672B;
+    padding: 4vw 4vw 0 4vw;
+}
+
+.desconto h2{
+     font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    padding: 2vw 0 0 0;
+}
+.desconto p{
+     font-size: 0.8rem;
+    color: rgb(255, 253, 253);
+    padding: 2vw 0;
+}
+
+.desconto a{
+    background-color: white;
+    color: #ED672B;
+    border-radius: 20px;
+      padding: 9px 15px;
+    display: inline-block;
+    font-size: 0.7rem;
+}
+.desconto a:hover{
+    background-color: #e78b61;
+    color: #FEF8F5;
+}
+
+footer{
+    background-color:#05073C ;
+}
+footer h4{
+    color: white;
+    font-size: 1rem;
+    padding: 2vw;
+}
+footer p{
+    color: white;
+    font-size: 0.7rem;
+    padding: 0 0 0 2vw;
+}
+footer ul li {
+    color: white;
+    font-size: 0.7rem;
+    padding: 0 0 2vw 2vw;
+}
+footer ul li h4{
+    padding: 2vw 2vw 2vw 0;
+}
+
+footer div{
+    padding: 5vw 0;
+}
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+
+
+    header{
+        display: flex;
+        justify-content: space-between; 
+        padding: 2vw 6vw;
+    }
+    header ul {
+        display: flex;
+        gap: 10px;
+    }
+    header ul li{
+        font-size: 0.6rem;
+    }
+    .banner{
+        text-align: center;
+        padding: 6vw 6vw 0 6vw;
+    }
+
+    .topicos h3{
+        font-size: 0.8rem;
+    }
+    .topicos ul{ 
+        display: flex;
+    }
+
+    .topicos {
+         padding: 4vw;
+    }
+    .desconto{
+        display: flex;
+        padding: 4vw 4vw 0 4vw;
+    }
+    footer{
+        padding: 6vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer p{
+        padding: 2vw 0;
+        font-size: 0.6 rem;
+    }
+
+    footer div h4{
+        padding: 3vw 0 0 0;
+    }
+    footer div h4.company{
+        padding: 0 0 2vw 2vw;
+    }
+    footer div.contact{
+        padding: 2vw 0;
+    }
+}
